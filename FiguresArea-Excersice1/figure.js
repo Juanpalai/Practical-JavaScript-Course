@@ -1,9 +1,29 @@
-const ladocuadrado = 5;
+function perimetroCuadrado(lado)
+{
+   return lado * 4;
+}
 
-console.log("Los lados del cuadrado miden: " + ladocuadrado + "cm");
+function areaCuadrado(lado) 
+{
+    return lado * lado;
+}
 
-var perimetroCuadrado = ladocuadrado * 4;
-console.log("El perimero del cuadrado es: " + perimetroCuadrado + "cm");
+function perimetroTriangulo(lado1, lado2, base)
+{
+    return lado1 +lado2 +base;
+}
 
-var areaCuadrado = ladocuadrado * ladocuadrado;
-console.log("El area del cuadrado es: " + areaCuadrado + "cm2");
+function areaTriangulo(base, altura)
+{
+    return(base*altura)/2;
+}
+
+function diametroCirculo(radio)
+{
+    return radio*2;
+}
+
+function areaCirculo(radio)
+{
+    return diametroCirculo(radio)* Math.PI;
+}
