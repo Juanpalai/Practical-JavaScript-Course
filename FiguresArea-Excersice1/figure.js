@@ -27,3 +27,22 @@ function areaCirculo(radio)
 {
     return diametroCirculo(radio)* Math.PI;
 }
+
+
+function calcularPerimetroCuadrado()
+{
+    const input = document.getElementById("InputCuadradp");
+    const value = input.value;
+
+    const perimetro = perimetroCuadrado(value);
+    alert(perimetro);
+}
+
+function calcularAreaCuandrado()
+{
+    const input = document.getElementById("InputCuadradp");
+    const value = input.value;
+
+    const area = areaCuadrado(value);
+    alert(area);
+}
